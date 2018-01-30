@@ -10,7 +10,7 @@ public class ArrayMethods1 {
 		String[]test3 = {"zebra", "tortilla", "abba", "foo", "bar", "aba"};
 		
 		//Insertion Sort
-		long 
+		long start
 		
 		//Selection Sort
 		
@@ -45,6 +45,7 @@ public class ArrayMethods1 {
 		int x = 0;
 		boolean swapAvail = true;
 		while(swapAvail)
+			//while swap >0 needs to keep track of swaps
 		{
 			swapAvail = false;
 			x++;
